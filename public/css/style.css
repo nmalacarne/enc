@@ -19,6 +19,10 @@ body{
     -moz-border-radius-topleft: 10px;
 }
 
+#enc-wrapper {
+    width: 750px; height: 559px;
+}
+
 .centered {
     margin: 0 auto;
 }
