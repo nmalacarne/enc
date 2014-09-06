@@ -21,6 +21,49 @@ body{
 
 #enc-wrapper {
     width: 750px; height: 559px;
+    margin-top: 10px;
+    -moz-user-select: none; 
+    -khtml-user-select: none; 
+    -webkit-user-select: none; 
+    -o-user-select: none; 
+}
+
+#enc-header {
+    padding: 5px;
+}
+
+#enc-reset-btn {
+    float: right;
+}
+
+#enc-title {
+    color: #5e6d81;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+#enc-act-list {
+    height: 500px;
+}
+
+#enc-edit {
+    height: 500px;
+    padding: 5px;
+}
+
+#enc-footer {
+    padding: 5px;
+}
+
+#enc-tracker {
+    color: #5e6d81;
+    font-size: 14px;
+    font-weight: 700;
+    float: left;
+}
+
+#enc-step-btn {
+    float: right;
 }
 
 .centered {
