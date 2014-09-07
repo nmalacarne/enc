@@ -11,7 +11,6 @@
 |
 */
 
-Route::get('/', function()
-{
-	return View::make('hello');
+Route::group(array('prefix' => 'enc'), function() {
+    Route::get('/', '');
 });
