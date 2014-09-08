@@ -4,15 +4,15 @@ body{
 	width: 100%; height: 100%;
 }
 
-#login-form {
+#signin-form {
     width: 300px;
     border: 1px;
     border-color: #ccc;
     border-radius: 10px;
     border-top-left-radius: 52px;
     background-color: #fff;
-    box-shadow: 2px 2px 5px grey;
     padding: 10px;
+    margin-top: 10px;
     -webkit-border-radius: 10px;
     -webkit-border-top-left-radius: 10px;
     -moz-border-radius: 10px;
