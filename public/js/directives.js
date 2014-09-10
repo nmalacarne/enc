@@ -2,7 +2,7 @@
 
 var mod = angular.module('App.directives', []);
 
-mod.directive('encStep', ['Encounter', 
+mod.directive('encStepBtn', ['Encounter', 
     function(Encounter) {
         return {
             restrict: 'E',
