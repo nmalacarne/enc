@@ -2,20 +2,16 @@
     <div class="row">
         <div id="enc-header" class="col-sm-12 panel panel-default">
             <span id="enc-title">Encounter Name</span>
-            <button id="enc-reset-btn" class="btn btn-warning">
-                <span class="glyphicon glyphicon-refresh"></span>
-            </button>
+            <enc-reset></enc-reset>
         </div>
     </div>
     <div class="row">
         <div id="enc-act-list" class="col-sm-7 panel panel-default">
-
+            <!--TODO: for each actor draw actor-->
         </div>
         <div class="col-sm-1"></div>
         <div id="enc-edit" class="col-sm-4 panel panel-default">
-            <div id="enc-add-act-form">
-
-            </div>
+            <enc-add-act-form></enc-add-act-form>
         </div>
     </div>
 
@@ -28,7 +24,7 @@
                 <span>Turn </span>
                 <span>1</span>
             </div>
-            <enc-step-btn></enc-step-btn>
+            <enc-step></enc-step>
         </div>
     </div>
 </div>

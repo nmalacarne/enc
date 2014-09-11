@@ -1,6 +1,9 @@
 {
     "attributes": {},
     "elements": {
-        "enc-step-btn": {}
+        "enc-reset": {},
+        "enc-step-btn": {},
+        "enc-add-act-form": {},
+        "enc-step": {}
     }
 }

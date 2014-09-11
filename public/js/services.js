@@ -14,9 +14,12 @@ mod.service('Encounter', ['$http',
             {
                 console.log('step');//$http.get('enc/step');
             },
-            new: function()
+            reset: function()
             {
-                $http.get('enc/new');
+                console.log('reset');//$http.get('enc/reset');
+            },
+            add: function() {
+                console.log('add');
             }
         };
     }
