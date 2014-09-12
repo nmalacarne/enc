@@ -2,7 +2,7 @@
 
 var mod = angular.module('App.directives', []);
 
-mod.directive('encStep', ['Encounter', 
+mod.directive('encStepButton', ['Encounter', 
     function(Encounter) {
         return {
             restrict: 'E',
@@ -16,7 +16,7 @@ mod.directive('encStep', ['Encounter',
     }
 ]);
 
-mod.directive('encReset', ['Encounter', 
+mod.directive('encResetButton', ['Encounter', 
     function(Encounter) {
         return {
             restrict: 'E',
@@ -30,11 +30,11 @@ mod.directive('encReset', ['Encounter',
     }
 ]);
 
-mod.directive('encAddActForm', ['Encounter', 
+mod.directive('encAddActButton', ['Encounter', 
     function(Encounter) {
         return {
             restrict: 'E',
-            templateUrl: './templates/enc/add.act.form.html',
+            templateUrl: './templates/enc/add.act.button.html',
             link: function(scope, element) {
                 element.bind('click', function() {
                     Encounter.add();

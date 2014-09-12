@@ -32,7 +32,7 @@ body{
     padding: 5px;
 }
 
-#enc-reset-btn {
+#enc-buttons {
     float: right;
 }
 
@@ -60,10 +60,6 @@ body{
     font-size: 14px;
     font-weight: 700;
     float: left;
-}
-
-#enc-step-btn {
-    float: right;
 }
 
 .centered {
